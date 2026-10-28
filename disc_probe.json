@@ -1,0 +1,29 @@
+{
+  "cue_path": "disc/Rascal (USA).cue",
+  "cue_name": "Rascal (USA).cue",
+  "bin_name": "Rascal (USA) (Track 01).bin",
+  "track_count": 10,
+  "data_track_size": 133471296,
+  "data_track_md5": "a26b29b0951b606479c26a970602c299",
+  "data_track_sha1": "f3987e30ec1530ad88952719cd0d24daa8a262af",
+  "data_track_crc32": "f4696a11",
+  "boot_exe": "SLUS_005.42",
+  "serial": "SLUS-00542",
+  "serial_exe": "SLUS_005.42",
+  "volume_id": "RASCAL",
+  "display_name": "Rascal",
+  "load_address": "0x80010000",
+  "entry_pc": "0x80078E58",
+  "text_size": "0x0008B000",
+  "stack_base": "0x801FFFF0",
+  "require_cue": true,
+  "required_disc_fp": "ff8be4e50abdfd2df7446e6b38617689cb2592636fa7893d082270d306abda42",
+  "boot_exe_sha256": "9bd61ca07b1562410cf6ce29f68a35c9bb0a811cdaab0f8d641f59eb8d3beb45",
+  "seed_count": 626,
+  "warnings": [],
+  "notes": [
+    "entry_pc/load_address/text_size/stack_base taken from PS-X EXE header.",
+    "seeds are first-pass boot-EXE JAL targets (+ entry); expect to grow as overlays / runtime paths are discovered.",
+    "required_disc_fp is psxrecomp-toc-v1 (matches runtime DiscIdentity)."
+  ]
+}
