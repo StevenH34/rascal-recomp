@@ -27,7 +27,8 @@ Scaffolded with the New Project Layout. See
 
 ## Status
 
-No current release yet, but the game does run.
+Current release: **[v0.1.0](https://github.com/StevenH34/rascal-recomp/releases/tag/v0.1.0)**
+(Windows x64). Linux and macOS builds are not available yet.
 
 | Area | Status |
 |---|---|
@@ -178,10 +179,18 @@ cmake --build build-release --target psx-runtime
 ```
 
 Releases: because `generated/` is not committed, release builds are made
-locally from your own disc. Generate and build as above, then package the
-compiled game with `scripts/package_release.sh build-release <platform>`
-(for example `linux-x64`), which writes `dist/rascal-<version>-<platform>.zip`.
-The zip contains only the compiled game, never the generated C.
+locally from your own disc. Bump `VERSION`, commit, then run:
+
+```powershell
+psxrecomp/tools/package_title_release.ps1 --channel public --platform windows
+```
+
+Pass `--toolchain-bin <dir>` if your MinGW toolchain is not in
+`C:\msys64\mingw64\bin`. This regenerates the game C, builds a release
+executable and writes `dist/RascalRecomp-v<version>-windows-x64.zip` with a
+`.sha256` beside it. The zip contains only the compiled game, never the
+generated C. Packaging settings live in `packaging/release.toml`; see
+`psxrecomp/docs/RELEASING_A_TITLE.md`.
 
 ## Symbols
 
