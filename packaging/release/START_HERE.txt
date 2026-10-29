@@ -1,0 +1,20 @@
+Rascal Recompiled v@VERSION@
+===========================
+
+You need your own copy of Rascal (USA, SLUS-00542) as a .cue with all 10
+tracks:
+
+  Rascal (USA).cue
+  Rascal (USA) (Track 01).bin ... Rascal (USA) (Track 10).bin
+
+1. Extract this zip anywhere.
+2. Run the executable. The launcher opens.
+3. Point it at "Rascal (USA).cue". The bundled OpenBIOS is used by default,
+   so a retail BIOS is optional.
+4. Adjust video and controls if needed, then launch.
+
+Saves go in the "saves" folder next to the executable. Settings are saved to
+settings.toml; delete it to go back to the defaults.
+
+This is an unofficial fan project. Rascal is (c) 1998 Psygnosis /
+Traveller's Tales. No game data is included.

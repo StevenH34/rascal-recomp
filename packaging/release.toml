@@ -1,0 +1,13 @@
+schema = 1
+
+[product]
+name = "RascalRecomp"
+display_name = "Rascal Recompiled"
+version_file = "VERSION"
+
+[aot]
+mode = "none"
+
+[payload]
+start_here = "packaging/release/START_HERE.txt"
+files = ["README.md", "LICENSE"]
