@@ -1,9 +1,9 @@
 # Rascal
 
 <!-- retcomm-readme-metrics -->
-[![GitHub downloads (all assets, all releases)](https://img.shields.io/github/downloads/RetroPortingToolKit/rascal-recomp/total)](https://github.com/RetroPortingToolKit/rascal-recomp/releases)
-[![GitHub downloads (latest release)](https://img.shields.io/github/downloads/RetroPortingToolKit/rascal-recomp/latest/total)](https://github.com/RetroPortingToolKit/rascal-recomp/releases/latest)
-[![GitHub release](https://img.shields.io/github/v/release/RetroPortingToolKit/rascal-recomp)](https://github.com/RetroPortingToolKit/rascal-recomp/releases/latest)
+[![GitHub downloads (all assets, all releases)](https://img.shields.io/github/downloads/StevenH34/rascal-recomp/total)](https://github.com/StevenH34/rascal-recomp/releases)
+[![GitHub downloads (latest release)](https://img.shields.io/github/downloads/StevenH34/rascal-recomp/latest/total)](https://github.com/StevenH34/rascal-recomp/releases/latest)
+[![GitHub release](https://img.shields.io/github/v/release/StevenH34/rascal-recomp)](https://github.com/StevenH34/rascal-recomp/releases/latest)
 <!-- /retcomm-readme-metrics -->
 
 Static recompilation of **Rascal** built on
@@ -68,7 +68,7 @@ Other regions and modified or re-encoded images are not supported.
 ## Playing
 
 1. Download the release zip for your platform from
-   [Releases](https://github.com/RetroPortingToolKit/rascal-recomp/releases)
+   [Releases](https://github.com/StevenH34/rascal-recomp/releases)
    and extract it anywhere.
 2. Run the executable. The launcher opens.
 3. Point it at your `Rascal (USA).cue` (see [Disc requirements](#disc-requirements)).
